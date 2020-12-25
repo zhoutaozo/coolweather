@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="55px"
+    android:paddingRight="50px"
+    android:background="@drawable/bg_2"
+    tools:context=".login.LoginActivity">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:layout_marginTop="16px"
+        android:background="#000000" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="28dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20px"
+        android:text="登陆酷欧天气" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <EditText
+            android:id="@+id/edt3"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:paddingLeft="10dp"
+            android:hint="请输入账号"
+            android:inputType="text"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="8px">
+        <EditText
+            android:id="@+id/edt4"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="26dp"
+            android:hint="请输入密码"
+            android:inputType="textPassword" />
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/btn_login1"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+
+        android:layout_marginTop="30dp"
+        android:text="注 册"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimary"/>
+</LinearLayout>
